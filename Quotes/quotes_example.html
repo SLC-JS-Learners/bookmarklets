@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script language="javascript" type="text/javascript">
+		
+		</script>
+	</head>
+	<body>
+	
+	<p>
+	<a href="javascript:(function(){
+		/* Groups fill in the code between this and the next comment. */
+		var quotes = [
+									'Every bug in existence is a story of different software components doing exactly what they were told to. - staticshock - https://news.ycombinator.com/item?id=7642129',
+									'Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - Brian W. Kernighan',
+									'I have been a success: for sixty years I have eaten, and have avoided being eaten. - Logan P. Smith',
+									'If you are not embarrassed by the first version of your product, you\'ve launched too late - Reid Hoffman (LinkedIn founder)',
+									'Knowledge doesn\’t change behavior, practice changes behavior. - Monique Sternins',
+									'To think too long about doing a thing often becomes its undoing. - Eva Young',];
+		
+		var ranNum = Math.random() * 100;
+		
+		var percents = 100/quotes.length;
+		
+		for (var i = 1; i <= quotes.length + 1; i++ ) {
+			if (ranNum <= i * percents) {
+				alert(quotes[i]);
+				break;
+			}
+		}
+
+		
+		/* Groups fill in the code between this and the previous comment. */
+		;})()">Gimme a quote!</a>  <--- Click and drag this to your browser's bookmark bar.
+	</p>
+	</body>
+</html>
